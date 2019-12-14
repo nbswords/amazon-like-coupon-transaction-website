@@ -22,6 +22,6 @@ Use my case for example
 
 2. Open XMAPP,then start MySQL and Apache
 
-3. Open any browser, type "http://localhost/test/couponPage/" into address bar
+3. Open any browser, type "http://localhost/test/couponPage/" into address bar and Enter
 
 4. DONE !!
