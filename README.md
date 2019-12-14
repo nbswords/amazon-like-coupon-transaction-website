@@ -23,7 +23,9 @@ You can see the detail of coupon, buy it or leave some message to seller.
 
 All function abut member, like add some coupon to sell, follow the messenge someone leave to you, give comment to the coupon you bought.
 
-Notice that if you use different account login, system will judge whether if you are a admin or just a member.
+Notice that system will judge whether if you are a admin or just a member by your login information(Username and Password).
+
+Use the login/logout on the top right of the CouponPage.
 
 # Usage
 
