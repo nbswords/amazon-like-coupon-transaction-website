@@ -37,3 +37,5 @@ Use my case for example
 3. Open any browser, type "http://localhost/test/couponPage/" into address bar and Enter
 
 4. DONE !!
+
+![image](https://github.com/nbswords/amazon-website/blob/master/Preview.jpg)
