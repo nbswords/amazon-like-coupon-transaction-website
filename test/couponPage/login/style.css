@@ -1,0 +1,101 @@
+@charset "UTF-8";
+* {
+    font-family:Microsoft JhengHei;
+    }
+body,input{
+    margin: 0;
+    padding: 0;
+
+}
+
+input{
+    display: inline-block;
+    background: #fff;
+}
+.container{
+    width: 100%;
+}
+.login-box{
+    position: relative;
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+    z-index: 99999;
+    background:#ffffff;
+    border: 7px solid #ccc;
+}
+.title-box{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    margin-left: 250px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 50px;
+}
+.email-box{
+    position: absolute;
+    width: 420px;
+    height: 40px;
+    line-height: 40px;
+    margin-top:100px;
+    margin-left:250px;
+    font-weight: 700;
+}
+.email-input{
+    display: inline-block;
+    margin-left: 5px;
+}
+#email{
+    height: 35px;
+    width: 290px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.userPassword-box{
+    position: absolute;
+    width: 420px;
+    height: 40px;
+    line-height: 40px;
+    margin-top:180px;
+    margin-left:250px;
+    font-weight: 700;
+}
+.userPassword-input{
+    display: inline-block;
+    margin-left: 5px;
+}
+#userPassword{
+    height: 35px;
+    width: 290px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+
+#userEmail{
+    height: 35px;
+    width: 290px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-box{
+    position:absolute;
+    width: 80px;
+    height: 40px;
+    line-height: 30px;
+    margin-top: 380px;
+    margin-left:350px;
+    border-radius: 5px;
+    background: grey;
+}
+#submit-button{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background:white;
+}

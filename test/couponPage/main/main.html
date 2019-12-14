@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="RedSky">
+    <title>黑膠漢堡</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="searchbar.js"></script>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="item">
+                <a href"#">Home</a>
+            </li>
+            <li class="item">
+                    <a href"#" onclick="javascript:location.href='file:///C:/Users/朱瑋民/Desktop/資料庫/coupon/coupon.html'" value="到coupon"> Coupon</a>
+            </li>
+            <li class="item">
+                <a href"#"> Contact Us </a>
+            </li>
+            <li class="item">
+                <a href"#" onclick="javascript:location.href='file:///C:/Users/朱瑋民/Desktop/資料庫/login/index.html'" value="到login">Login</a>
+
+            </li>
+        </ul>
+    </nav>
+
+    <!--<div class="search-box">
+        <input type="text" class="search-text" placeholder="Type to search"/>
+        <div class="search-btn">
+            <img src="decoration/search.png">
+        </div>
+    </div>
+
+    <div class="search">
+        <img src="decoration/search.png">
+    </div>-->
+
+    <!--搜尋欄-->
+
+
+    <!--暫時搜尋欄-->
+  <div id="search">
+  <form id="search_form" action="main.php" method="POST" accept-charset="utf-8">
+    <!-- 輸入欄 -->
+    <input type="text" name="coupon_name" placeholder="Type to search"/>
+
+    <!-- 下拉選單 -->
+    <div id="search_box">
+      <select name="fieldLimit">
+        <option value="all" selected="selected">全部</option>
+        <option value="real">實體</option>
+        <option value="electronics">電子</option>
+      </select>
+    </div>
+    <!-- 提交按鈕 -->
+    <input id="serach_submit" type="submit" name="submit" value="查詢"/>
+    <!-- -->
+
+  </form>
+</div>
+<!-------------------->
+</div>
+
+
+<!---------------------------------------------------------------->
+
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>-->
+    <style type="text/css">
+
+
+  	#search_box{
+  		display:inline;
+  	}
+
+  	#search_submit{
+  		display:block;
+  	}
+
+  	</style>
+
+</body>
+</html>

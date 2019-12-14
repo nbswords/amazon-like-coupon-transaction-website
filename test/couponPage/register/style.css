@@ -1,0 +1,137 @@
+@charset "UTF-8";
+* {
+    font-family:Microsoft JhengHei;
+    }
+body,input{
+    margin: 0;
+    padding: 0;
+}
+
+
+input{
+    display: inline-block;
+    background: #fff;
+}
+.container{
+    width: 100%;
+    height: 1200px;
+
+}
+.register-box{
+    position: relative;
+    height: 800px;
+    width: 900px;
+    margin: 0 auto;
+    z-index: 99999;
+    background:#ffffff;
+    border: 7px solid #ccc;
+}
+.title-box{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    margin-left: 250px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 50px;
+}
+.useremail-box{
+    position: absolute;
+    width: 420px;
+    height: 40px;
+    line-height: 40px;
+    margin-top:80px;
+    margin-left:250px;
+    font-weight: 700;
+}
+.useremail-input{
+    display: inline-block;
+    margin-left: 5px;
+}
+#useremail{
+    height: 35px;
+    width: 290px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.userPassword-box{
+    position: absolute;
+    width: 420px;
+    height: 40px;
+    line-height: 40px;
+    margin-top:160px;
+    margin-left:250px;
+    font-weight: 700;
+}
+.userPassword-input{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#userPassword{
+    height: 35px;
+    width: 290px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.userRePassword-box{
+    position: absolute;
+    width: 900px;
+    height:100px;
+    line-height: 40px;
+    font-weight: 700;
+}
+#userRePassword{
+    height: 35px;
+    width: 290px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.username-box{
+    position: absolute;
+    width: 420px;
+    height: 40px;
+    line-height: 40px;
+    margin-top:320px;
+    margin-left:250px;
+    font-weight: 700;
+}
+.username-input{
+    display: inline-block;
+    margin-left: 5px;
+}
+#username{
+    height: 35px;
+    width: 290px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.submit-box{
+    position:absolute;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 450px;
+    margin-left:350px;
+    border-radius: 5px;
+    background: grey;
+}
+#submit-button{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background:white;
+}
+.goLogin-box{
+    position:absolute;
+    width: 150px;
+    height: 40px;
+    margin-top: 390px;
+    margin-left:320px;
+
+}
