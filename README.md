@@ -31,13 +31,15 @@ Use the login/logout on the top right of the CouponPage.
 
 Using XMAPP or any tool which support PHP.
 
-Use my case for example
+Here are procedure in my case
 
-1. put all file at "C:\xampp\htdocs" 
+1. put all file ("test" folder) at "C:\xampp\htdocs" 
 
 2. Open XMAPP,then start MySQL and Apache
 
 3. Open any browser, type "http://localhost/test/couponPage/" into address bar and Enter
+
+* Of course you need to config XMAPP first when firstly use it.
 
 4. DONE !!
 
