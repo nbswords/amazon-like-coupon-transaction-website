@@ -1,6 +1,6 @@
 # amazon-like-coupon-transaction-website
 
-A Coupon transaction website which designed as amazon front page.
+A Coupon transaction website which designed as amazon front page. The final project of my Database course.
 
 Using HTML + CSS + Bootstrap to build this amazon-like front end. 
 
